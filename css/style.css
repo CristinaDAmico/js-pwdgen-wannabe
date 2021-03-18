@@ -1,0 +1,65 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(../img/sfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    padding: 100px;
+}
+
+h1 {
+    color: #1f65aa;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #32a4e4;
+    text-align: center;
+    margin: 10px;
+}
+
+/* MAIN-CONTENT */
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#password {
+    background: lightgrey;
+    width: 350px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(0 0 0 / 50%);
+    margin: 20px auto;
+    background: lightgrey;
+}
+
+.btn {
+    padding: 15px 30px;
+    color: #fff;
+    background: #1f65aa;
+    border-radius: 20px;
+    border: 1px solid #02023a;
+    font-weight: bold;
+    cursor: pointer;
+}
