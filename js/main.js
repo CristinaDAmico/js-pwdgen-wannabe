@@ -18,5 +18,9 @@ console.log(surname);
 var favouriteColour = prompt("What's your favourite colour?");
 console.log(favouriteColour);
 
-// 4
-document.getElementById("password").innerHTML = username + surname + favouriteColour + '21';
+// 4-creazione password
+var password = username + surname + favouriteColour + '21';
+console.log(password);
+
+//Output screen
+document.getElementById("password").innerHTML = 'Your password is ' + password;
